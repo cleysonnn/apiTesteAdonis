@@ -1,0 +1,2 @@
+sonar-scanner   -Dsonar.projectKey=back   -Dsonar.sources=.   -Dsonar.host.url=http://localhost:9000   -Dsonar.login=2f94cf51851f6b18a8a870c789ff5685bc392a35
+
