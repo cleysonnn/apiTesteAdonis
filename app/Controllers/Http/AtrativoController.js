@@ -1,3 +1,4 @@
+
 'use strict'
 
 const Atrativos = use('App/Models/Atrativo')
@@ -43,6 +44,7 @@ class AtrativoController {
       'nome',
       'endereco',
       'cidade',
+      'descricao',
       'tipo',
       'nota',
       'preco',
@@ -88,6 +90,7 @@ class AtrativoController {
       'nome',
       'endereco',
       'cidade',
+      'descricao',
       'tipo',
       'nota',
       'preco',
