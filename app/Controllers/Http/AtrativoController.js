@@ -106,4 +106,4 @@ class AtrativoController {
   }
 }
 
-module.exports = AtrativoController
+module.exports = AtrativoController 
