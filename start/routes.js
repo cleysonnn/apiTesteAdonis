@@ -22,6 +22,8 @@ Route.get('/', () => {
 
 Route.post('/users', 'UserController.create')
 
+Route.get('/listarTodosUsuarios' , 'UserController.UserALL')
+
 Route.post('/sessions', 'SessionController.create')
 
 Route.get('/atrativosAll', 'AtrativoController.indexALL')

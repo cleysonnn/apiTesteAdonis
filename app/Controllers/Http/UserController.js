@@ -10,6 +10,15 @@ class UserController {
 
     return user
   }
+
+
+  async UserALL (){
+    const usuarios =await User.all()
+    
+
+    return usuarios
+  }
+
 }
 
 module.exports = UserController
